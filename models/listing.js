@@ -9,7 +9,8 @@ const listingSchema = new Schema({
 	description: String,
 	image: {
 		type: String,
-		default: "https://unsplash.com/photos/brown-wooden-lounge-chairs-near-pool-surrounded-by-palm-trees-vmIWr0NnpCQ",
+		default:
+			"https://unsplash.com/photos/brown-wooden-lounge-chairs-near-pool-surrounded-by-palm-trees-vmIWr0NnpCQ",
 		set: (v) =>
 			v === ""
 				? "https://unsplash.com/photos/brown-wooden-lounge-chairs-near-pool-surrounded-by-palm-trees-vmIWr0NnpCQ"
