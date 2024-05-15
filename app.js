@@ -77,7 +77,6 @@ app.delete("/listings/:id", async (req, res) => {
 	res.redirect("/listings");
 });
 
-
 // Demo Route
 // app.get("/testListing", async (req, res) => {
 // 	let sampleListing = new Listing ({
